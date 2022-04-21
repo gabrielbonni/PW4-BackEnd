@@ -1,0 +1,51 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "env": {
+            "node": true
+        }
+    },
+    "rules": {
+        // Possible Errors Rules
+        "no-unsafe-finally": "error",
+        "no-unreachable": "error",
+        "no-setter-return": "error",
+        "getter-return": "error",
+
+        // Best Practices Rules
+        "semi": "warn",
+        "eqeqeq": "warn",
+        "curly": "off",
+        "no-useless-return": "error",
+        "no-useless-catch": "warn",
+        
+        // Stylistic Rules
+        "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
+        "block-spacing":"warn",
+        "camelcase":"warn",
+        "indent": ["warn", "tab"],
+        "lines-around-comment":"warn",
+        "quotes": ["warn", "single"],
+
+        // ES6 Rules
+        "no-var":"error",
+        "prefer-const":"error",
+        "sort-imports":"off",
+        "prefer-destructuring":["warn", {
+            "array": true,
+            "object": true
+        }],
+        "prefer-arrow-callback": "error",
+        "no-confusing-arrow":"warn",
+        "arrow-parens": ["warn", "as-needed", { "requireForBlockBody": true }],
+        "arrow-body-style":["warn", "as-needed", { "requireReturnForObjectLiteral": true }],
+        "arrow-spacing": ["warn", { "before": true, "after": true }],
+        "no-const-assign": "error",
+        "no-useless-rename": ["error", {
+            "ignoreDestructuring": false,
+            "ignoreImport": false,
+            "ignoreExport": false
+        }]
+    }
+}

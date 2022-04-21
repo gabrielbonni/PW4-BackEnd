@@ -1,0 +1,8 @@
+{
+    "Hello world!": "Olá mundo!",
+	"Getting {{resourceType}} resource with id {{id}}": "Pegando um recurso do tipo {{resourceType}} através do id {{id}}",
+	"Hello from {{endpoint}}": "O endpoint {{endpoint}} está te mandando um salve!",
+	"Hello from {{ endpoint }}": "O endpoint {{ endpoint }} te saúda!",
+	"Getting {{ resourceType }} resource with id {{ id }}": "Recuperando um recurso do tipo {{ resourceType }} atraves do id {{ id }}",
+	"You are on the route": "Você está na rota"
+}

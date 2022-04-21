@@ -1,0 +1,38 @@
+{
+  "name": "projeto-pw4-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon start.js",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IFSP-PW4/pw4-project-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IFSP-PW4/pw4-project-backend/issues"
+  },
+  "homepage": "https://github.com/IFSP-PW4/pw4-project-backend#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "i18n": "^0.8.5",
+    "mongoose": "^5.9.21",
+    "node-core-lib": "^0.11.11",
+    "pubsub-js": "^1.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.4"
+  }
+}

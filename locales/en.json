@@ -1,0 +1,10 @@
+{
+	"Returning all users": "Returning all users",
+	"Returning user with id {{userId}}": "Returning user with id {{userId}}",
+	"Hello world!": "Hello world!",
+	"Getting {{resourceType}} resource with id {{id}}": "Getting {{resourceType}} resource with id {{id}}",
+	"Hello from {{endpoint}}": "Hello from {{endpoint}}",
+	"Hello from {{ endpoint }}": "Hello from {{ endpoint }}",
+	"Getting {{ resourceType }} resource with id {{ id }}": "Getting {{ resourceType }} resource with id {{ id }}",
+	"Updating {{ resourceType }} resource with id {{ id }}": "Updating {{ resourceType }} resource with id {{ id }}"
+}

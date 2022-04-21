@@ -1,0 +1,7 @@
+{
+	"Hello world!": "Hello world!",
+	"Hello from {{endpoint}}": "Hello from {{endpoint}}",
+	"Hello from {{ endpoint }}": "Hello from {{ endpoint }}",
+	"Getting {{ resourceType }} resource with id {{ id }}": "Getting {{ resourceType }} resource with id {{ id }}",
+	"Returning all users": "Returning all users"
+}
